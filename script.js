@@ -637,3 +637,34 @@ window.addEventListener('load', function (e) {
 // [...h1.parentElement.children].forEach(function (el) {
 //   if (el !== h1) el.style.transform = 'scale(0.5)';
 // });
+
+/////////////////////////////
+
+// let final = [];
+
+// let abc = 'aaaaaaabbbbccccc';
+// console.log(abc);
+
+// let abcArray = abc.split('');
+// console.log(abcArray);
+// let uniqueArrays = [...new Set(abcArray)];
+// console.log(uniqueArrays);
+
+// uniqueArrays.forEach(letter => {
+//   let count = 1;
+//   let currentLetter;
+//   let combined;
+
+//   for (let i = 0; i < abcArray.length; i++) {
+//     if (letter === abcArray[i]) {
+//       combined = `${count++}${(currentLetter = letter)}`;
+//     }
+//   }
+
+//   console.log(combined);
+//   final.push(combined);
+// });
+
+// console.log(final);
+// let answer = final.join(' ');
+// console.log(answer);
