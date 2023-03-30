@@ -7,14 +7,14 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <link rel="shortcut icon" type="image/png" href="img/my-pic.png" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Bankist | When Banking meets Minimalist</title>
+    <title>Anne Nicole Arboleda Portfolio</title>
 
     <script defer src="script.js"></script>
   </head>
@@ -36,10 +36,10 @@
         ></button>
         <ul class="nav__links" id="nav__links">
           <li class="nav__item">
-            <a class="nav__link nav__link--btn" href="#section--2">PROJECTS</a>
+            <a class="nav__link nav__link--btn" href="#section--3">PROJECTS</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--btn" href="#section--3">SKILLS</a>
+            <a class="nav__link nav__link--btn" href="#section--2">SKILLS</a>
           </li>
         </ul>
       </nav>
@@ -51,13 +51,108 @@
       </div>
     </header>
 
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">PROJECTS</h2>
+        <h3 class="section__header">Here are four of my latest works.</h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h3 class="testimonial__header">Bankist App</h3>
+            <blockquote class="testimonial__text">
+              <h5>Technologies used: JavaScript, HTML, CSS</h5>
+              <p>
+                This banking app simplifies financial management, allowing users
+                to handle transactions with ease. The user-friendly interface
+                makes it easy to view account balances, track expenses, and
+                transfer funds.
+              </p>
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <!-- <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p> -->
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h3 class="testimonial__header">The Pig Game</h3>
+            <blockquote class="testimonial__text">
+              <h5>Technologies used: JavaScript, HTML, CSS</h5>
+              <p>
+                Our game app is a thrilling dice rolling game where players aim
+                to reach a final score of 100. Each dice roll adds to the
+                player's temporary score, which can be added to their final
+                score by using the "Hold" button or continued by rolling the
+                dice. But beware, rolling a 1 resets the temporary score to 0.
+              </p>
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <!-- <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p> -->
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h3 class="testimonial__header">Basic Calculator</h3>
+            <blockquote class="testimonial__text">
+              <h5>Technologies used: React, JavaScript, HTML, CSS</h5>
+              <p>
+                This project is a simple calculator designed to perform basic
+                arithmetic operations such as addition, subtraction,
+                multiplication, and division.
+              </p>
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <!-- <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p> -->
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--4">
+          <div class="testimonial">
+            <h3 class="testimonial__header">Brick Game</h3>
+            <blockquote class="testimonial__text">
+              <h5>Technologies used: JavaScript, HTML</h5>
+              <p>
+                Our game is a fun and addictive experience that challenges
+                players to hit all 80 bricks using a wrecking ball. With precise
+                aim and the ability to strategically bounce the ball off the
+                wrecking ball truck, players must use their skills to
+                successfully hit each brick.
+              </p>
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <!-- <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p> -->
+            </address>
+          </div>
+        </div>
+
+        <!-- <div class="slide"><img src="img/img-1.jpg" alt="Photo 1" /></div>
+        <div class="slide"><img src="img/img-2.jpg" alt="Photo 2" /></div>
+        <div class="slide"><img src="img/img-3.jpg" alt="Photo 3" /></div>
+        <div class="slide"><img src="img/img-4.jpg" alt="Photo 4" /></div> -->
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
     <section class="section" id="section--2">
       <div class="section__title">
-        <h2 class="section__description">PROJECTS</h2>
-        <h3 class="section__header">
-          Here are three of my latest works, constructed utilizing HTML, CSS,
-          and JavaScript.
-        </h3>
+        <h2 class="section__description">SKILLS</h2>
+        <h3 class="section__header">Technical Skills</h3>
       </div>
 
       <div class="operations">
@@ -66,14 +161,14 @@
             class="btn operations__tab operations__tab--1 operations__tab--active"
             data-tab="1"
           >
-            <span>01</span>Bankist App
+            Front-end
           </button>
           <button class="btn operations__tab operations__tab--2" data-tab="2">
-            <span>02</span>Pig Game
+            Back-end
           </button>
-          <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <!-- <button class="btn operations__tab operations__tab--3" data-tab="3">
             <span>03</span>Brick Game
-          </button>
+          </button> -->
         </div>
         <div
           class="operations__content operations__content--1 operations__content--active"
@@ -86,12 +181,7 @@
           <!-- <h5 class="operations__header">
             Tranfser money to anyone, instantly! No fees, no BS.
           </h5> -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
+          <p>JavaScript, React.js, HTML, CSS</p>
         </div>
 
         <div class="operations__content operations__content--2">
@@ -103,12 +193,7 @@
           <!-- <h5 class="operations__header">
             Buy a home or make your dreams come true, with instant loans.
           </h5> -->
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
+          <p>PostgreSql, Sql</p>
         </div>
         <div class="operations__content operations__content--3">
           <!-- <div class="operations__icon operations__icon--3">
@@ -129,92 +214,12 @@
       </div>
     </section>
 
-    <section class="section" id="section--3">
-      <div class="section__title section__title--testimonials">
-        <h2 class="section__description">TESTIMONIALS</h2>
-        <h3 class="section__header">
-          Words from My Colleagues: Insights into My Work Ethic and
-          Professionalism
-        </h3>
-      </div>
-
-      <div class="slider">
-        <div class="slide slide--1">
-          <div class="testimonial">
-            <h5 class="testimonial__header">Best financial decision ever!</h5>
-            <blockquote class="testimonial__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Accusantium quas quisquam non? Quas voluptate nulla minima
-              deleniti optio ullam nesciunt, numquam corporis et asperiores
-              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
-              id alias reiciendis, perferendis facere pariatur dolore veniam
-              autem esse non voluptatem saepe provident nihil molestiae.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Aarav Lynn</h6>
-              <p class="testimonial__location">San Francisco, USA</p>
-            </address>
-          </div>
-        </div>
-
-        <div class="slide slide--2">
-          <div class="testimonial">
-            <h5 class="testimonial__header">
-              The last step to becoming a complete minimalist
-            </h5>
-            <blockquote class="testimonial__text">
-              Quisquam itaque deserunt ullam, quia ea repellendus provident,
-              ducimus neque ipsam modi voluptatibus doloremque, corrupti
-              laborum. Incidunt numquam perferendis veritatis neque repellendus.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
-              deserunt exercitationem deleniti.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Miyah Miles</h6>
-              <p class="testimonial__location">London, UK</p>
-            </address>
-          </div>
-        </div>
-
-        <div class="slide slide--3">
-          <div class="testimonial">
-            <h5 class="testimonial__header">
-              Finally free from old-school banks
-            </h5>
-            <blockquote class="testimonial__text">
-              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
-              incidunt commodi architecto numquam omnis nulla autem,
-              necessitatibus blanditiis modi similique quidem. Odio aliquam
-              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
-              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
-              alias reiciendis, perferendis facere.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Francisco Gomes</h6>
-              <p class="testimonial__location">Lisbon, Portugal</p>
-            </address>
-          </div>
-        </div>
-
-        <!-- <div class="slide"><img src="img/img-1.jpg" alt="Photo 1" /></div>
-        <div class="slide"><img src="img/img-2.jpg" alt="Photo 2" /></div>
-        <div class="slide"><img src="img/img-3.jpg" alt="Photo 3" /></div>
-        <div class="slide"><img src="img/img-4.jpg" alt="Photo 4" /></div> -->
-        <button class="slider__btn slider__btn--left">&larr;</button>
-        <button class="slider__btn slider__btn--right">&rarr;</button>
-        <div class="dots"></div>
-      </div>
-    </section>
-
     <section class="section section--sign-up">
       <div class="section__title">
         <h3 class="section__header">Personal Description Here</h3>
         <img src="img/my-pic.png" alt="" class="my--pic" />
       </div>
-      <button class="btn btn--show-modal outline">Request for a resume?</button>
+      <!-- <button class="btn btn--show-modal outline">Request for a resume?</button> -->
     </section>
 
     <footer class="footer">
