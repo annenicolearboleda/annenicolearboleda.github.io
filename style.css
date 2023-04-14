@@ -831,7 +831,7 @@ h4 {
   position: absolute;
   top: 0;
   width: 100vw;
-  height: 50vh;
+  height: 70vh;
 
   display: flex;
   align-items: center;
@@ -839,6 +839,22 @@ h4 {
 
   /* THIS creates the animation! */
   transition: transform 1s;
+}
+
+@media (max-width: 768px) {
+  .slide {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 75vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* THIS creates the animation! */
+    transition: transform 1s;
+  }
 }
 
 .slide > img {
@@ -987,8 +1003,18 @@ h4 {
 
 .testimonial__photo {
   grid-row: 1 / span 2;
-  width: 10vw;
+  width: 7vw;
+  height: 14vh;
   border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .testimonial__photo {
+    grid-row: 1 / span 2;
+    width: 28vw;
+    height: 15vh;
+    border-radius: 50%;
+  }
 }
 
 .testimonial__name {
