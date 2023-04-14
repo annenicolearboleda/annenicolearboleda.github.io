@@ -987,7 +987,7 @@ h4 {
 
 .testimonial__photo {
   grid-row: 1 / span 2;
-  width: 6.5vw;
+  width: 10vw;
   border-radius: 50%;
 }
 
