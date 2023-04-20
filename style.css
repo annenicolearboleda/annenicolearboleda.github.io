@@ -481,7 +481,7 @@ img {
   background: linear-gradient(-45deg, white, #A9C5CB, #BCC9CC, #EEEBEB);
   background-size: 400% 400%;
   animation: gradient 7s ease infinite;
-  height: 120vh;
+  height: 140vh;
 }
 
 @media (max-width: 768px) {
@@ -489,7 +489,7 @@ img {
     background: linear-gradient(-45deg, white, #A9C5CB, #BCC9CC, #EEEBEB);
     background-size: 400% 400%;
     animation: gradient 7s ease infinite;
-    height: 166vh;
+    height: 175vh;
   }
 }
 
@@ -750,29 +750,14 @@ h4 {
 }
 
 .operations__tab--1 {
-  background-color: #fffd95;
+  background-color: #A9C5CB;
 }
 
-.operations__tab--1:hover {
-  background-color: #fffd95;
-}
 
 .operations__tab--2 {
-  background-color: #a0d995;
+  background-color: #A9C5CB;
 }
 
-.operations__tab--2:hover {
-  background-color: #a0d995;
-}
-
-.operations__tab--3 {
-  background-color: #ff6b6b;
-  margin: 0;
-}
-
-.operations__tab--3:hover {
-  background-color: #ff6b6b;
-}
 
 .operations__tab--active {
   transform: translateY(-66%);
@@ -1023,6 +1008,10 @@ h4 {
   margin-bottom: 1.5rem;
 }
 
+.testimonial__header a{
+  color: black;
+}
+
 .testimonial__text {
   font-size: 1.7rem;
   margin-bottom: 3.5rem;
@@ -1227,7 +1216,7 @@ h4 {
 }
 
 .personal{
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   width: 50vw;
   text-align: center;
   margin: auto;
@@ -1245,7 +1234,7 @@ h4 {
 
 @media (max-width: 768px) {
   .personal {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     width: 80vw;
     text-align: center;
     margin: auto;
