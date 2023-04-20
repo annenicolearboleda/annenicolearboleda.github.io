@@ -489,7 +489,7 @@ img {
     background: linear-gradient(-45deg, white, #A9C5CB, #BCC9CC, #EEEBEB);
     background-size: 400% 400%;
     animation: gradient 7s ease infinite;
-    height: 165vh;
+    height: 166vh;
   }
 }
 
