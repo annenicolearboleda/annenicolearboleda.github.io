@@ -15,7 +15,7 @@
 }
 
 ::selection {
-  background: #03bcf4;
+  background: #c1e8e8;
 }
 
 * {
@@ -341,14 +341,22 @@ img {
 .nav {
   font-family: 'Century Gothic';
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   height: 12vh;
   width: 100vw;
   padding: 0 6rem;
-  z-index: 100;
   background-color: transparent;
 }
+
+
+.nav ul li {
+  float: left;
+  margin: 0 5vw;
+}
+
+
+
 
 /* nav and stickly class at the same time */
 .nav.sticky {
@@ -467,6 +475,35 @@ img {
   outline-style: solid;
   outline-color: black;
   outline-width: 1px;
+}
+
+.section--4{
+  background: linear-gradient(-45deg, white, #A9C5CB, #BCC9CC, #EEEBEB);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  height: 120vh;
+}
+
+@media (max-width: 768px) {
+  .section--4 {
+    background: linear-gradient(-45deg, white, #A9C5CB, #BCC9CC, #EEEBEB);
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+    height: 165vh;
+  }
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* .water__drop .drop1 {
@@ -1073,6 +1110,10 @@ h4 {
   margin-bottom: 5rem;
 }
 
+.footer__nav a {
+  color: black;
+}
+
 @media (max-width: 768px) {
   .footer__nav {
     list-style: none;
@@ -1186,11 +1227,20 @@ h4 {
 }
 
 .personal{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   width: 50vw;
   text-align: center;
   margin: auto;
   margin-top: 9vh;
+
+  box-shadow: 0px 10px 15px 10px white;
+  padding: 1vw;
+  content: '';
+  color: transparent;
+  background: black;
+  -webkit-background-clip: text;
+  background-clip: text;
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
@@ -1206,7 +1256,6 @@ h4 {
 .intouch {
   font-family: 'Lucida Console';
   font-size: 400%;
-  box-shadow: 0px 10px 15px 10px #f0eeed;
 
   content: '';
   color: transparent;
@@ -1215,14 +1264,12 @@ h4 {
   background-clip: text;
   outline: none;
   text-shadow: 2px 5px 5px #427889;
-  animation: animate 3s linear infinite;
 }
 
 @media (max-width: 768px) {
   .intouch {
     font-family: 'Lucida Console';
     font-size: 400%;
-    box-shadow: 0px 10px 15px 10px white;
 
     content: '';
     color: transparent;
@@ -1231,38 +1278,9 @@ h4 {
     background-clip: text;
     outline: none;
     text-shadow: 2px 5px 5px #427889;
-    animation: animate 3s linear infinite;
   }
 }
 
-@keyframes animate {
-  0%,
-  18%,
-  20%,
-  50.1%,
-  60%,
-  65.1%,
-  80%,
-  90.1%,
-  92% {
-    color: #155b72;
-    text-shadow: none;
-  }
-  18.1%,
-  20.1%,
-  30%,
-  50%,
-  60.1%,
-  65%,
-  80.1%,
-  90%,
-  92.1%,
-  100% {
-    color: #fff;
-    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
-      0 0 80px #03bcf4, 0 0 160px #03bcf4;
-  }
-}
 
 .personal p {
   margin-bottom: 5vh;
