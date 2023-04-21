@@ -758,6 +758,10 @@ h4 {
   background-color: #A9C5CB;
 }
 
+.operations__tab--3 {
+  background-color: #A9C5CB;
+}
+
 
 .operations__tab--active {
   transform: translateY(-66%);
