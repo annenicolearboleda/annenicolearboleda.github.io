@@ -1116,6 +1116,7 @@ h4 {
   /* display: flex; */
   /* justify-content: center; */
   margin-bottom: 5rem;
+  text-align: center;
 }
 
 .footer__nav a {
@@ -1272,6 +1273,7 @@ h4 {
   background-clip: text;
   outline: none;
   text-shadow: 2px 5px 5px #427889;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
