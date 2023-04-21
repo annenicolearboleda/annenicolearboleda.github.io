@@ -267,6 +267,7 @@ body {
 .section__title {
   max-width: 80vw;
   margin: 0 auto 8rem auto;
+  text-align: center;
 }
 
 .section__description {
@@ -925,13 +926,27 @@ h4 {
 }
 
 .slider__btn--left {
-  left: 6%;
+  left: 15%;
   transform: translate(-50%, -50%);
 }
 
+@media (max-width: 768px) {
+  .slider__btn--left {
+    left: 6%;
+    transform: translate(-50%, -50%);
+  }
+}
+
 .slider__btn--right {
-  right: 6%;
+  right: 15%;
   transform: translate(50%, -50%);
+}
+
+@media (max-width: 768px) {
+  .slider__btn--right {
+    right: 6%;
+    transform: translate(50%, -50%);
+  }
 }
 
 .dots {
