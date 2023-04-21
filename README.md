@@ -1,4 +1,4 @@
-## Website Portfolio
+# Website Portfolio
 
 ## Table of contents
 * [General info](#general-info)
