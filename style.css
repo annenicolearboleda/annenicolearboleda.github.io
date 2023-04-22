@@ -861,7 +861,8 @@ h4 {
   height: 70vh;
 
   display: flex;
-  align-items: center;
+  align-items: top;
+  margin-top: 7vh;
   justify-content: center;
 
   /* THIS creates the animation! */
@@ -873,10 +874,11 @@ h4 {
     position: absolute;
     top: 0;
     width: 100vw;
-    height: 75vh;
+    height: 95vh;
   
     display: flex;
-    align-items: center;
+    align-items: top;
+    margin-top: 5vh;
     justify-content: center;
   
     /* THIS creates the animation! */
@@ -926,7 +928,7 @@ h4 {
 }
 
 .slider__btn--left {
-  left: 15%;
+  left: 18%;
   transform: translate(-50%, -50%);
 }
 
@@ -938,7 +940,7 @@ h4 {
 }
 
 .slider__btn--right {
-  right: 15%;
+  right: 18%;
   transform: translate(50%, -50%);
 }
 
@@ -967,6 +969,7 @@ h4 {
   margin-right: 1.75rem;
   cursor: pointer;
   transition: all 0.5s;
+  margin-top: -10vh;
 
   /* Only necessary when overlying images */
   /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
@@ -983,12 +986,13 @@ h4 {
     margin-right: 1.75rem;
     cursor: pointer;
     transition: all 0.5s;
+
   }
 }
 
-.dots__dot:last-child {
+/* .dots__dot:last-child {
   margin: 0;
-}
+} */
 
 .dots__dot--active {
   /* background-color: #fff; */
@@ -1074,8 +1078,10 @@ h4 {
 }
 
 .section__title--testimonials {
-  margin-bottom: 4rem;
+  margin-bottom: 0vh;
 }
+
+
 
 /* SIGNUP */
 .section--sign-up {
