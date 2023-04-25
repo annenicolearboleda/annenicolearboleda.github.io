@@ -362,6 +362,7 @@ img {
 /* nav and stickly class at the same time */
 .nav.sticky {
   position: fixed;
+  z-index: 1;
   background-color: #f0eeed;
   opacity: 0.8;
   outline-style: solid;
